@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
-require_relative "lib/calc/version"
+require_relative "lib/calc_ruby_test_gem/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "calc"
-  spec.version = Calc::VERSION
+  spec.name = "calc_ruby_test_gem"
+  spec.version = CalcRubyTestGem::VERSION
   spec.authors = ["Alex"]
   spec.email = ["alex.phazz@gmail.com"]
 
   spec.summary = "Basic calculator."
   spec.description = "Basic calculator with addition, subtraction, multiplication and division mathematical calculations."
-  spec.homepage = "https://github.com/PhazZzyo/calc"
+  spec.homepage = "https://github.com/PhazZzyo/calc_ruby_test_gem"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/PhazZzyo/calc"
+  spec.metadata["source_code_uri"] = "https://github.com/PhazZzyo/calc_ruby_test_gem"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.

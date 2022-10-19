@@ -1,22 +1,20 @@
-# Calc
+# CalcRubyTestGem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/calc`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a Ruby gem basic calculator. It can do basic mathematical operations like addition, subtraction, multiplication, and division mathematical calculations.
 
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add calc
+    $ bundle add calc_ruby_test_gem
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install calc
+    $ gem install calc_ruby_test_gem
 
 ## Usage
 
-TODO: Write usage instructions here
+Please enter your example with space between each element (2 * 5).
 
 ## Development
 
@@ -26,4 +24,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/calc.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/calc_ruby_test_gem.

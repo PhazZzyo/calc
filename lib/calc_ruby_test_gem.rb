@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "calc/version"
+require_relative "calc_ruby_test_gem/version"
 
-module Calc
+module CalcRubyTestGem
   class Error < StandardError; end
   
 puts "Please enter your example with space between each element: "
