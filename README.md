@@ -14,7 +14,12 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-Please enter your example with space between each element (2 * 5).
+To test the calculator through irb:
+# Launch IRB and load this file calc_ruby_test_gem.rb
+irb -r ./lib/calc_ruby_test_gem
+# Then start a module
+CalcRubyTestGem
+# Done! Now you can pass examples.
 
 ## Development
 
