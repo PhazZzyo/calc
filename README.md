@@ -17,9 +17,11 @@ If bundler is not being used to manage dependencies, install the gem by executin
 To test the calculator through irb:
 # Launch IRB and load this file calc_ruby_test_gem.rb
 irb -r ./lib/calc_ruby_test_gem
-# Then start a module
-CalcRubyTestGem
-# Done! Now you can pass examples.
+# Now you can pass examples in that sequance: (first_operand, second_operand, "operation")
+CalcRubyTestGem::calculate(1,2,"+")
+ => "1 + 2 = 3" 
+CalcRubyTestGem::calculate(1,2,"-")
+ => "1 - 2 = -1"
 
 ## Development
 

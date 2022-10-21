@@ -15,8 +15,7 @@ module CalcRubyTestGem
       raise UnsupportedOperation unless ALLOWED_OPERATIONS.include? operation
       
       begin
-      "#{first_operand} #{operation} #{second_operand} = #{first_operand.send(operation, second_operand)}"
-      puts "Test"
+      "#{first_operand} #{operation} #{second_operand} = #{first_operand.send(operation, second_operand)}"      
       rescue ZeroDivisionError => e
         "Division by zero is not allowed."
       end

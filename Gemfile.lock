@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    calc_ruby_test_gem (0.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  calc_ruby_test_gem!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.3.24
